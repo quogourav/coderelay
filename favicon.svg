@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="150 60 84 84" role="img">
+<title>Code Relay</title>
+<rect x="150" y="60" width="84" height="84" rx="18" fill="#1D4E89"/>
+<polyline points="178,84 162,102 178,120" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="206,84 222,102 206,120" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="197" y1="85" x2="187" y2="119" stroke="#F2A33D" stroke-width="8" stroke-linecap="round"/>
+</svg>

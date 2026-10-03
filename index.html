@@ -9,7 +9,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b1f3a'/%3E%3Ctext x='50' y='68' font-size='50' font-family='Arial' font-weight='bold' fill='%23f2a33d' text-anchor='middle'%3ECR%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,44 +35,40 @@
 
   <!-- HERO -->
   <section class="hero" id="home">
+    <div class="hero__glow hero__glow--1"></div>
+    <div class="hero__glow hero__glow--2"></div>
     <div class="container hero__inner">
-      <p class="eyebrow">Company Portfolio 2025</p>
-      <h1>CODE RELAY</h1>
-      <p class="hero__tagline">Your Full-Service Digital Growth Partner</p>
-      <p class="hero__services">Brand Marketing &bull; SEO &bull; Affiliate Marketing &bull; Performance Marketing &bull; Influencer Marketing &bull; Email Marketing &bull; Content Marketing &bull; Social Media &bull; CRO</p>
-      <div class="hero__cta">
-        <a href="#contact" class="btn btn--accent">Book a Free Strategy Call</a>
-        <a href="#services" class="btn btn--outline">Explore Our Services</a>
+      <div class="hero__copy">
+        <p class="eyebrow"><i></i> Pune-based digital marketing agency</p>
+        <h1>Your full-service <span class="grad">digital growth</span> partner.</h1>
+        <p class="hero__lead">Code Relay brings brand, SEO, affiliate, performance, influencer, email, content, social and CRO together in one strategy — built for measurable growth, not vanity metrics.</p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--accent">Book a Free Strategy Call</a>
+          <a href="#services" class="btn btn--outline">Explore Our Services</a>
+        </div>
+        <p class="hero__tag">Build. Grow. Dominate.</p>
+      </div>
+
+      <div class="hero__panel" aria-hidden="true">
+        <p class="hero__panel-title">9 services. 1 strategy.</p>
+        <div class="hero__chips">
+          <span>Brand</span><span>SEO</span><span class="hot">Affiliate</span>
+          <span>Performance</span><span>Influencer</span><span>Email</span>
+          <span>Content</span><span>Social</span><span>CRO</span>
+        </div>
+        <div class="hero__bar"><span></span></div>
+        <p class="hero__panel-note">Every channel feeds the next.</p>
       </div>
     </div>
 
-    <div class="stats">
-      <div class="container stats__grid">
-        <div class="stat">
-          <span class="stat__num">150+</span>
-          <span class="stat__label">Clients Worldwide</span>
-        </div>
-        <div class="stat stat--alt">
-          <span class="stat__num">8+</span>
-          <span class="stat__label">Years of Excellence</span>
-        </div>
-        <div class="stat">
-          <span class="stat__num">9</span>
-          <span class="stat__label">Service Verticals</span>
-        </div>
-        <div class="stat stat--alt">
-          <span class="stat__num">300%</span>
-          <span class="stat__label">Avg. ROI Delivered</span>
-        </div>
-        <div class="stat">
-          <span class="stat__num">98%</span>
-          <span class="stat__label">Client Retention</span>
-        </div>
+    <div class="container">
+      <div class="stats">
+        <div class="stat"><span class="stat__num">150+</span><span class="stat__label">Clients Worldwide</span></div>
+        <div class="stat"><span class="stat__num">8+</span><span class="stat__label">Years of Excellence</span></div>
+        <div class="stat"><span class="stat__num">9</span><span class="stat__label">Service Verticals</span></div>
+        <div class="stat"><span class="stat__num">300%</span><span class="stat__label">Avg. ROI Delivered</span></div>
+        <div class="stat"><span class="stat__num">98%</span><span class="stat__label">Client Retention</span></div>
       </div>
-    </div>
-
-    <div class="hero__banner">
-      <p>Build. Grow. Dominate.</p>
     </div>
   </section>
 
@@ -532,7 +528,7 @@
   </div>
   <div class="footer__bottom">
     <div class="container">
-      <p>&copy; 2025 Code Relay Services. All rights reserved.</p>
+      <p>&copy; <span id="year">2026</span> Code Relay Services. All rights reserved.</p>
       <p class="footer__services-list">Brand Marketing &bull; SEO &bull; Affiliate &bull; Performance &bull; Influencer &bull; Email &bull; Content &bull; Social &bull; CRO</p>
     </div>
   </div>

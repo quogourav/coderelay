@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelectorAll('.nav a');
   const sections = document.querySelectorAll('main section[id]');
 
+  const year = document.getElementById('year');
+  if (year) year.textContent = new Date().getFullYear();
+
   // Header shadow + active nav link + back-to-top visibility on scroll
   const onScroll = () => {
     const scrollY = window.scrollY;

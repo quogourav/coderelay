@@ -496,13 +496,46 @@
             <li><strong>Phone:</strong> <a href="tel:+917497022206">+91 74970 22206</a></li>
             <li><strong>Website:</strong> <a href="https://www.coderelay.in" target="_blank" rel="noopener">www.coderelay.in</a></li>
           </ul>
-          <a href="mailto:contact@coderelay.in?subject=Free%20Strategy%20Session%20Request" class="btn btn--accent">Book Your Free Strategy Session</a>
+          <p class="contact-hours">Mon &ndash; Fri | 9:00 AM &ndash; 7:00 PM IST</p>
+          <p class="contact-note">Prefer to write directly? Email us and we will reply within one working day.</p>
         </div>
-        <div class="contact-card reveal">
-          <h3>Our Office</h3>
-          <p>Code Relay Services<br>R16, Kolte Patil Life Republic<br>Pune — 411057, Maharashtra, India</p>
-          <p class="contact-hours">Mon – Fri | 9:00 AM – 7:00 PM IST</p>
-        </div>
+
+        <form class="contact-card contact-form reveal" id="contactForm" novalidate>
+          <h3>Send us a message</h3>
+          <div class="form-row">
+            <label>Your name
+              <input type="text" name="name" required autocomplete="name">
+            </label>
+            <label>Email
+              <input type="email" name="email" required autocomplete="email">
+            </label>
+          </div>
+          <div class="form-row">
+            <label><span>Phone <span class="opt">(optional)</span></span>
+              <input type="tel" name="phone" autocomplete="tel">
+            </label>
+            <label>Service
+              <select name="service">
+                <option>Not sure yet</option>
+                <option>Brand Marketing</option>
+                <option>SEO</option>
+                <option>Affiliate Marketing</option>
+                <option>Performance Marketing</option>
+                <option>Influencer Marketing</option>
+                <option>Email &amp; Marketing Automation</option>
+                <option>Content Marketing</option>
+                <option>Social Media Marketing</option>
+                <option>Conversion Rate Optimisation</option>
+              </select>
+            </label>
+          </div>
+          <label>How can we help?
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" class="btn btn--accent" id="formBtn">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
       </div>
     </div>
   </section>
@@ -525,7 +558,6 @@
     <div class="footer__contact">
       <p>contact@coderelay.in</p>
       <p>+91 74970 22206</p>
-      <p>Pune, Maharashtra, India</p>
     </div>
   </div>
   <div class="footer__bottom">

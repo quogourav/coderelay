@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const out = await res.json();
         if (!res.ok || String(out.success) !== 'true') throw new Error(out.message || 'failed');
         form.reset();
-        show('Thank you! Your message has been sent. We will reply within one working day.', 'ok');
+        show('Thank you for getting in touch. A member of our team will respond within one working day.', 'ok');
       } catch (err) {
         console.error('Contact form failed:', err.message);
         show('Sorry, something went wrong. Please email us at <a href="mailto:contact@coderelay.in">contact@coderelay.in</a>.', 'err', true);
